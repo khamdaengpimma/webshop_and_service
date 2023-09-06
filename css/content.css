@@ -1,0 +1,126 @@
+
+h2{
+    color:#183D3D;
+
+}
+
+/* .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+} */
+.btn-getnow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+    margin-top: 5px;
+}
+.get-started-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #555; /* Change the background color on hover */
+}
+/* Services Section Styles */
+.services {
+    max-width: 1200px;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex-basis: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    height: 14vw;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+/* Products Section Styles */
+.products {
+    max-width: 1200px;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex-basis: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 14vw;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF0000;
+
+}
+
+.product a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #006400;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.product a:hover{
+    background-color: #fff;
+    color: #006400;
+    border: 1px solid #006400;
+}

@@ -1,0 +1,93 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    /* background-color: #040D12; */
+
+}
+
+nav{
+    
+    width: 100%;
+    height: 5vw;
+    background: linear-gradient(145deg,#040D12,#93B1A6);
+}
+.nav-container{
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    height: 100%;
+    margin: 0 auto;
+
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    object-fit: contain;
+}
+.user-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25vw;
+}
+.user-control ul {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+}
+.user-control li a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:#fff;
+    margin-left: 15px;
+    padding: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    /* transition-delay: 0.2s; */
+    
+}
+.user-control li a:hover{
+    box-shadow: 0 3px rgb(248, 222, 34);
+    transition-delay: 0.2s;
+}
+/* content in home  */
+.content-head{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* user-name */
+.u-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.name-user{
+    display: block;
+    font-size: 2vw;
+    font-weight:700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+}
+.btn-sin{
+    /* display: none; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #183D3D;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KDOP</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/content.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+        <nav><div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo_KDOP.png" class="logo">
+                </a>
+            </div>
+            <div class="user-control">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About Us</a></li>
+                    
+                </ul>
+
+            
+
+            </div>
+            <div class="sign-in"><button class="btn-sin" onclick="openModal()">Sing in</button></div>
+            <!-- <div class="u-name"><p class="name-user">khamdeang</p></div> -->
+        </div>
+        </nav>
+        <div class="content-head"><h2>SERVICE</h2></div>
+        
+        <section class="services" id="services">
+            
+            <div class="service">
+                <img src="img/service/img-1.avif" alt="Service 1">
+                <h3>Service 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service">
+                <img src="img/service/img-2.avif" alt="Service 2">
+                <h3>Service 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service">
+                <img src="img/service/img-3.avif" alt="Service 3">
+                <h3>Service 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            
+        </section>
+
+        <div class="btn-getnow"><a href="service.html"class="get-started-btn">Get Started Now</a></div>
+        
+        <div class="content-head"><h2>PRODUCT</h2></div>
+        <section class="products" id="products">
+            <div class="product">
+                <img src="img/product/pd-1.avif" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$19.99</span>
+            </div>
+            <div class="product">
+                <img src="img/product/pd-2.avif" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$29.99</span>
+            </div>
+            <div class="product">
+                <img src="img/product/pd-3.avif" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$39.99</span>
+            </div>
+            
+        </section>
+        
+        <div class="btn-getnow"><a href="shop.html" class="get-started-btn">Get Started Now </a></div>
+        <!-- Login button to trigger the login modal -->
+    <!-- <button class="login-button" onclick="openModal()">Login</button> -->
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2>Login</h2>
+            <form class="login-form" action="#" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" name="username" placeholder="Enter your username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" placeholder="Enter your password" required>
+                <p class=" fg-pw" ><a href="forgetpw">forget password</a></p>
+                <input type="submit" class="login-button" value="Login">
+            </form>
+            <span class="register-button"><a href="#" onclick="openModalRG()">Register Now</a></span>
+        </div>
+    </div>
+
+<!-- register modal -->
+<div class="modal" id="registerModal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModalRG()">&times;</span>
+        <h2>Register</h2>
+        <form class="registration-form" action="#" method="POST">
+            <!-- <label for="username">Username:</label> -->
+            <input type="text" name="username" placeholder="Enter your username" required>
+
+            <!-- <label for="email">Email:</label> -->
+            <input type="email" name="email" placeholder="Enter your Email" required>
+
+            <!-- <label for="password">Password:</label> -->
+            <input type="password" name="password" placeholder="Enter your password" required>
+
+            <!-- <label for="confirm-password">Confirm Password:</label> -->
+            <input type="password" name="confirm-password" placeholder="Confirm your password" required>
+
+            <input type="submit" class="register-button" value="Register">
+        </form>
+        <span class="additional">Have account? 
+            <a href="#"  onclick="closeModalRG()" class="btn-login">Log in Now</a>
+        </span>
+    </div>
+</div>
+
+<!-- footer page -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo_KDOP_1.png" alt="Company Logo">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>Contact Us:Phimmasone khamdeang</p>
+                    <p>Email: <a href="khamdaeng2022@gmail.com">khamdaeng2022@gmail.com</a></p>
+                    <p>Phone: (+84)336626742</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Your Company. All rights reserved.</p>
+            </div>
+        </footer>
+        <button class="login-button" onclick="openModal()">Login</button>
+<script src="/js/login.js"></script>
+<script src="/js/register.js"></script>
+</body>
+</html>

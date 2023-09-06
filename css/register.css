@@ -1,0 +1,89 @@
+/* Style for the modal registration form */
+#registerModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+#registerModal h2 {
+    color: #fff;
+    margin-bottom: 20px;}
+
+#registerModal .modal-content {
+    background-color: #183D3D;
+    padding: 20px;
+    position: absolute;
+    width: 40%;
+    height: 35vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #5C8374;
+    position: relative;
+}
+
+/* Modal close button style */
+#registerModal .close-button {
+
+    cursor: pointer;
+    color: #5C8374;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Registration form styles */
+#registerModal .registration-form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#registerModal label {
+    display: block;
+    margin-top: 10px;
+    color: #5C8374;
+}
+
+#registerModal input[type="text"],
+#registerModal input[type="email"],
+#registerModal input[type="password"] {
+    width: 100%;
+    height: 4vw;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    background-color: #93B1A6;
+    border-radius: 5px;
+    color: #040D12;
+}
+
+/* Register button style */
+#registerModal .register-button {
+    background-color: #5C8374;
+    width: 100%;
+    height: 3vw;
+    font-size: 1.3rem;
+    color: #040D12;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Hover effect for the register button */
+#registerModal .register-button:hover {
+    background-color: #93B1A6;
+}
+.additional a{
+    color: #fff;
+}
